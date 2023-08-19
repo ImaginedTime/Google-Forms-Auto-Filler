@@ -11,6 +11,6 @@ IMPORTANT Note: Because of the Google Forms bot filling blocking, you must click
 2. Open the link - [chrome://extensions](chrome://extensions)
 3. On the top right corner, enable the **Developer Mode**
 4. Then, on the top left corner, click on the **Load Unpacked**
-5. Select the folder of the extension - The root directory of the zipped folder.
+5. Select the folder of the extension - The root directory of the unzipped folder.
 
 There you go. Now you can use the extension.
