@@ -1,14 +1,18 @@
-/* popup.css */
+:root {
+    --dark-mode-background: #000d2d;
+    --dark-input-background: #001d3d;
+    --dark-input-color: #eee;
+
+    --delete-button-background: #f55353;
+    --add-button-background: #4caf50;
+    --save-button-background: #007bff;
+}
 
 /* Basic styling for the popup container */
 body {
-    width: 300px;
+    width: 350px;
     padding: 20px;
     font-family: Arial, sans-serif;
-
-    /* to be implemented - Dark Mode */
-    /* background-color: #000d2d; */
-    /* color: white; */
 }
 
 /* Styling for the title */
@@ -27,12 +31,9 @@ table {
 
 /* Styling for table headers */
 thead tr {
-    /* background-color: #f2f2f2; */
-    padding: 8px;
     text-align: left;
     font-weight: bold;
     border-bottom: 1px solid #ddd;
-
 }
 
 /* Styling for table data cells */
@@ -44,28 +45,31 @@ td {
 
 /* Styling for input fields */
 input[type="text"] {
-    width: 100%;
+    width: 90%;
     padding: 5px;
     border: 1px solid #ccc;
     border-radius: 3px;
     font-size: 14px;
-    /* background-color: #001d3d;
-    color: #eee; */
 }
 
 /* Styling for buttons */
 button {
-    background-color: #007bff;
     color: white;
     border: none;
     padding: 8px 15px;
     cursor: pointer;
 }
 
-/* Additional styling for the "Add" button */
 #addNewEntryButton {
-    background-color: #4caf50;
-    margin-right: 5px;
+    background-color: var(--add-button-background);
+}
+
+#saveDataButton {
+    background-color: var(--save-button-background);
+}
+
+.delete-button {
+    background-color: var(--delete-button-background);
 }
 
 /* Margin between buttons in the footer */
@@ -73,7 +77,23 @@ tfoot td button {
     margin-left: 5px;
 }
 
-#savedText{
+/* Styling for the Saved animation */
+#savedText {
     opacity: 0;
     text-align: center;
+}   
+
+.darkMode {
+    background-color: var(--dark-mode-background);
+    color: white;
+}
+
+.darkInputs {
+    background-color: var(--dark-input-background);
+    color: var(--dark-input-color);
+}
+
+.lightMode {
+    background-color: white;
+    color: black;
 }
