@@ -1,6 +1,12 @@
 # Google Forms Auto Filler
 
-![Google Forms Auto Filler Screenshot](images/Screenshot.png)
+### Light Mode Example
+
+![Google Forms Auto Filler Screenshot](images/Screenshot-light.png)
+
+### Dark Mode Example
+
+![Google Forms Auto Filler Screenshot](images/Screenshot-dark.png)
 
 This add-on enters text into input fields of Google Forms by predefined values automatically. For example if you set *Name* as *Elon Musk*, each input fields of Google Forms whose title is *Name* gets *Elon Musk* value when the page is loaded.
 
